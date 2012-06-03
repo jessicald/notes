@@ -31,7 +31,7 @@ Definitions
     * index: `[]`
     * namespace: `.`
     * assignment: `=`
-* gender.py (derived from code in [colons/pyfoot/4caf837/conf.py](https://github.com/colons/pyfoot/blob/4caf837cf8d934cc7a57949ee8b2be37fe54d83a/conf.py#L63)):
+* gender.py (derived from code in [colons/pyfoot/4caf837/conf.py][pyfoot/Conf]:
 
 ```python
 class GenderPronouns():
@@ -48,6 +48,7 @@ class GenderPronouns():
         self.pos_pro = pos_pro
         self.reflex = reflex
 ```
+[pyfoot/Conf]: https://github.com/colons/pyfoot/blob/4caf837cf8d934cc7a57949ee8b2be37fe54d83a/conf.py#L63
 
 Speed (Time) Tests
 ------------------
