@@ -31,7 +31,7 @@ Definitions
     * index: `[]`
     * namespace: `.`
     * assignment: `=`
-* gender.py (derived from code in [colons/pyfoot/4caf837/conf.py][pyfoot/Conf]:
+* gender.py (derived from code in [colons/pyfoot/4caf837/conf.py][pyfoot/Conf]):
 
 ```python
 class GenderPronouns():
