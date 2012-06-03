@@ -1,7 +1,8 @@
-# Class vs. Dictionary; or, An Example of Space–Time Tradeoff in Python
+Class vs. Dictionary; or, An Example of Space–Time Tradeoff in Python
+=====================================================================
 
-## Conclusions; or, tl;dr
-
+Conclusions; or, tl;dr
+----------------------
 ### What wins?
 * `struct`-like objects, i.e. ones that are largely the same as a C `struct` instance, win in the memory department.
     * These tests do not try to determine what is best for *very* large sets of values, however; I direct the reader to <http://stackoverflow.com/a/2670191> for an insight into that scenario when using a dictionary.
@@ -16,7 +17,8 @@
 * `update()` seems to expand the hash table of a dictionary more conservatively than other methods of key/value creation, including explicitly making a new dictionary with the exact same entries as another.
 * A class definition takes a considerably higher amount of memory compared to instances of a class. For example, the `dict` class clocks in at 800 bytes in these tests while the empty dictionary `{}` only takes 280 bytes. Of course, a definition only has to be loaded once.
 
-## Definitions
+Definitions
+-----------
 * class: a Python class.
 * object: an instance of a class.
 * field: an instance variable of an object; can interchangably refer to a variable and its associated value, or a variable by itself.
@@ -47,8 +49,8 @@ class GenderPronouns():
         self.reflex = reflex
 ```
 
-## Speed (Time) Tests
-
+Speed (Time) Tests
+------------------
 ### Accessing an existing value
 
 #### Fastest: Accessing a dictionary value through the index operator
@@ -134,7 +136,8 @@ $ python3.2 -mtimeit -s"pnoun = {'nom': 'she', 'obl': 'her', 'pos_det': 'her', '
 `~2.03 - ~0.431 = ~1.599 usec per loop.`
 
 
-## Memory (Space) Tests
+Memory (Space) Tests
+--------------------
 The following tests were performed in the Python 3.2 interpreter.
 
 The order has been edited for clarity, but the values are unchanged.
