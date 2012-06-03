@@ -29,7 +29,7 @@
     * index: `[]`
     * namespace: `.`
     * assignment: `=`
-* gender.py (inspired by code in [colons/pyfoot/4caf837/conf.py](https://github.com/colons/pyfoot/blob/4caf837cf8d934cc7a57949ee8b2be37fe54d83a/conf.py#L63)):
+* gender.py (derived from code in [colons/pyfoot/4caf837/conf.py](https://github.com/colons/pyfoot/blob/4caf837cf8d934cc7a57949ee8b2be37fe54d83a/conf.py#L63)):
 
 ```python
 class GenderPronouns():
