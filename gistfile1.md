@@ -85,6 +85,7 @@ The relative speeds also hold true for changing the value of an existing field o
 
 #### Fastest: Adding a new entry in an existing dictionary through the assignment and index operators
 The first test times the creation of a new dictionary from a copy of the original and the reassignment of a variable that holds it.
+
 This is subtracted from the next test, which recreates and reassigns the dictionary each time to make sure we're always adding a *new* entry to the dictionary.
 
 ```bash
@@ -100,6 +101,7 @@ $ python3.2 -mtimeit -s"pnoun = {'nom': 'she', 'obl': 'her', 'pos_det': 'her', '
 
 #### Faster: Adding a new field to an existing object through the namespace operator
 The first test times the creation of a GenderPronouns object and the reassignment of a variable that holds one.
+
 This is subtracted from the next test, which recreates and reassigns the object each time to make sure we're always adding a *new* field to the object.
 
 ```bash
@@ -134,6 +136,7 @@ $ python3.2 -mtimeit -s"pnoun = {'nom': 'she', 'obl': 'her', 'pos_det': 'her', '
 
 ## Memory (Space) Tests
 The following tests were performed in the Python 3.2 interpreter.
+
 The order has been edited for clarity, but the values are unchanged.
 
 ### Set it up and show that the internal values are the same
@@ -146,7 +149,9 @@ True
 ```
 
 ### Use getsizeof() to measure the size of objects in octets (8-bit bytes)
-getsizeof() shows the size of the object only, i.e. it does not include the sizes of the accompanying fields, keys, or values; it will however account for the size of a dictionary's hash table.
+getsizeof() shows the size of the object only, i.e. it does not include the sizes of the accompanying fields, keys, or values.
+
+It will however account for the size of a dictionary's hash table.
 
 ```python
 >>> from sys import getsizeof
