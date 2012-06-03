@@ -13,7 +13,7 @@ Conclusions; or, tl;dr
 * `struct`-like objects are apparently easier on memory than dictionaries but are slightly slower to access. They can both serve the exact same purpose, and objects can return their fields as a dictionary with `object.__dict__`.
 * `getattr()` and `setattr()` are slower on objects than the namespace operator.
 * `get()` and `update()` are slower on dictionaries than the index operator.
-    * `dict.update({key: value})` is so much slower than `dict[key] = value` that it should **only** be used for updating an existing dictionary with the values in another one. It's simply too expensive for adding or reassigning individual keys.
+    * `dict.update({key: value})` is so much slower than `dict[key] = value` that it should **only** be used for updating an existing dictionary with the values in another one. It's simply too expensive for adding or reassigning individual entries.
 * `update()` seems to expand the hash table of a dictionary more conservatively than other methods of key/value creation, including explicitly making a new dictionary with the exact same entries as another.
 * A class definition takes a considerably higher amount of memory compared to instances of a class. For example, the `dict` class clocks in at 800 bytes in these tests while the empty dictionary `{}` only takes 280 bytes. Of course, a definition only has to be loaded once.
 
