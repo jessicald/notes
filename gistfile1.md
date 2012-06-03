@@ -38,7 +38,7 @@ class GenderPronouns():
             obl='xem',  # Oblique: her, him, it
             pos_det='xyr',  # Possessive, determiner: her, his, its
             pos_pro='xyrs',  # Possessive, predicate: hers, his, its
-            reflex='xem'  # Reflexive: herself, hisself, itself
+            reflex='xem'  # Reflexive: herself, himself, itself
             ):
         self.nom = nom
         self.obl = obl
