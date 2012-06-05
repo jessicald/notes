@@ -87,9 +87,8 @@ $ python3.2 -mtimeit -s"from gender import GenderPronouns; pnoun = GenderPronoun
 The relative speeds also hold true for changing the value of an existing field or key.
 
 #### Fastest: Adding a new entry in an existing dictionary through the assignment and index operators
-The first test times the creation of a new dictionary from a copy of the original and the reassignment of a variable that holds it.
-
-This is subtracted from the next test, which recreates and reassigns the dictionary each time to make sure we're always adding a *new* entry to the dictionary.
+1. Time the creation of a new dictionary from a copy of the original and the reassignment of a variable that holds it
+2. Subtracted this from the next test, which recreates and reassigns the dictionary each time to make sure we're always adding a *new* entry to the dictionary.
 
 ```bash
 $ python3.2 -mtimeit -s"pnoun = {'nom': 'she', 'obl': 'her', 'pos_det': 'her', 'pos_pro': 'hers', 'reflex': 'herself'}; pnoun2 = pnoun.copy()" "pnoun = pnoun2.copy()"
@@ -103,9 +102,8 @@ $ python3.2 -mtimeit -s"pnoun = {'nom': 'she', 'obl': 'her', 'pos_det': 'her', '
 `~0.957 - ~0.431 = ~0.526 usec per loop.`
 
 #### Faster: Adding a new field to an existing object through the namespace operator
-The first test times the creation of a GenderPronouns object and the reassignment of a variable that holds one.
-
-This is subtracted from the next test, which recreates and reassigns the object each time to make sure we're always adding a *new* field to the object.
+1. Time the creation of a GenderPronouns object and the reassignment of a variable that holds one.
+2. Subtract this from the next test, which recreates and reassigns the object each time to make sure we're always adding a *new* field to the object.
 
 ```bash
 $ python3.2 -mtimeit -s"from gender import GenderPronouns; pnoun = GenderPronouns('she', 'her', 'her', 'hers', 'herself')" "pnoun = GenderPronouns('she', 'her', 'her', 'hers', 'herself')"
