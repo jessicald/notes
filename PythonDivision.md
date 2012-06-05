@@ -35,7 +35,7 @@ $ python3.2 -mtimeit -s"num = 3; dem = 7; sup = num/dem" "dup = sup**-1"
 ```
 
 ### In Python 2
-Python 2 has a nasty habit of returning an `int` as the result of dividing two `int`s, so additional calls to `float()` must be made to specify `float` division. `float()` is an e*x*tremely costly procedure.
+Python 2 has a nasty habit of returning an `int` as the result of dividing two `int`s, so additional calls to `float()` must be made to specify `float` division. `float()` is an *particularly* costly procedure.
 
 This problem makes it necessary to tailor the code to the specific use case, which can be troublesome. The below tests assume you always want a `float` out of the inversion operation and that the number to invert is a `float`.
 
