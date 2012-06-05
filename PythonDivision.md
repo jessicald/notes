@@ -3,6 +3,10 @@ Notes on Python division
 
 Multiplicative inverse, i.e. computing 1/x for a given x
 --------------------------------------------------------
+### Definitions
+* multiplicative inverse: in mathematics, a multiplicative inverse or reciprocal for a number *x*, denoted by 1/*x* or *x*^-1, is a number which when multiplied by *x* yields the multiplicative identity, 1; the multiplicative inverse of a fraction *a*/*b* is *b*/*a*. [[1][c1]]
+
+[c1]: https://en.wikipedia.org/wiki/Multiplicative_inverse
 
 ### In Python 3
 If the numerator and denominator are known separately and x = num/dem, calculating dem/num is roughly 1.5 times faster than calculating 1/x and roughly twice as fast as calculating x^-1.
