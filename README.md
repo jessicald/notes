@@ -3,14 +3,17 @@ Cordella's Notes
 
 Things observed during testing that I feel are interesting enough to publish.
 
-1. [Class vs. Dictionary; or, An Example of Space–Time Tradeoff in Python][Py:CvD]
+1. [Regular Expressions for Various Languages][Gen:REGEX]
+    * [Vim][Gen:REGEX:VIM]
+2. [Class vs. Dictionary; or, An Example of Space–Time Tradeoff in Python][Py:CvD]
     * [Conclusions; or, tl;dr][Py:CvD:TLDR]
     * [Definitions][Py:CvD:DEFS]
     * [Speed (Time) Tests][Py:CvD:SPDT]
     * [Memory (Space) Tests][Py:CvD:MEMT]
-2. [Notes on Python division][Py:DIV]
+3. [Notes on Python division][Py:DIV]
     * [Multiplicative inverse, i.e. computing 1/*x* for a given *x*][Py:DIV:INV]
 
+[Gen:REGEX]: https://github.com/cordella/notes/blob/master/Regex.md
 
 [Py:CvD]: https://github.com/cordella/notes/blob/master/ClassVsDictionary_gist-2861038.md#class-vs-dictionary-or-an-example-of-space%E2%80%93time-tradeoff-in-python
 [Py:CvD:TLDR]: https://github.com/cordella/notes/blob/master/ClassVsDictionary_gist-2861038.md#conclusions-or-tldr
