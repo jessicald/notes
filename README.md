@@ -13,7 +13,8 @@ Things observed during testing that I feel are interesting enough to publish.
 3. [Notes on Python division][Py:DIV]
     * [Multiplicative inverse, i.e. computing 1/*x* for a given *x*][Py:DIV:INV]
 
-[Gen:REGEX]: https://github.com/cordella/notes/blob/master/Regex.md
+[Gen:REGEX]: https://github.com/cordella/notes/blob/master/Regex.md#regular-expressions-for-various-languages
+[Gen:REGEX:VIM]: https://github.com/cordella/notes/blob/master/Regex.md#vim
 
 [Py:CvD]: https://github.com/cordella/notes/blob/master/ClassVsDictionary_gist-2861038.md#class-vs-dictionary-or-an-example-of-space%E2%80%93time-tradeoff-in-python
 [Py:CvD:TLDR]: https://github.com/cordella/notes/blob/master/ClassVsDictionary_gist-2861038.md#conclusions-or-tldr
