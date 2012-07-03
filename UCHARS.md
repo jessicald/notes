@@ -14,7 +14,7 @@ Deutsch: geviertstrich
 Svenska: långt tankstreck  
 Nederlands: kastlijntje  
 #### Codepoint
-U+2014 EM DASH
+U+2014 EM DASH  
 
 ---
 
@@ -26,7 +26,7 @@ Deutsch: halbgeviertstrich
 Svenska: tankstreck  
 Nederlands: halve kastlijntje  
 #### Codepoint
-U+2013 EN DASH
+U+2013 EN DASH  
 
 ---
 
@@ -34,7 +34,7 @@ U+2013 EN DASH
 #### Common names
 English: interpunct, centred dot, dot operator  
 #### Codepoint
-U+00B7 MIDDLE DOT
+U+00B7 MIDDLE DOT  
 
 ---
 
@@ -42,7 +42,7 @@ U+00B7 MIDDLE DOT
 #### Common names
 English: interrobang  
 #### Codepoint
-U+203D INTERROBANG
+U+203D INTERROBANG  
 
 Latin Letters
 -------------
@@ -56,8 +56,8 @@ English: c-cedilla
 Français: cé cédille  
 Português: cê cedilhado  
 #### Codepoint
-U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA
-U+00E7 LATIN SMALL LETTER C WITH CEDILLA
+U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA  
+U+00E7 LATIN SMALL LETTER C WITH CEDILLA  
 
 ---
 
@@ -68,8 +68,8 @@ Français: e accent aigu
 Español: e acento agudo  
 Português: e com acento agudo  
 #### Codepoint
-U+00C9 LATIN CAPITAL LETTER E WITH ACUTE
-U+00E9 LATIN SMALL LETTER E WITH ACUTE
+U+00C9 LATIN CAPITAL LETTER E WITH ACUTE  
+U+00E9 LATIN SMALL LETTER E WITH ACUTE  
 
 ---
 
@@ -78,7 +78,7 @@ U+00E9 LATIN SMALL LETTER E WITH ACUTE
 English: long s, medial s  
 Deutsch: lange s  
 #### Codepoint
-U+017F LATIN SMALL LETTER LONG S
+U+017F LATIN SMALL LETTER LONG S  
 
 ---
 
@@ -87,8 +87,8 @@ U+017F LATIN SMALL LETTER LONG S
 English: thorn  
 Íslenska: þorn  
 #### Codepoint
-U+00DE LATIN CAPITAL LETTER THORN
-U+00FE LATIN SMALL LETTER THORN
+U+00DE LATIN CAPITAL LETTER THORN  
+U+00FE LATIN SMALL LETTER THORN  
 
 ---
 
@@ -104,8 +104,8 @@ English: eth
 #### Common names
 English: ash, æsc  
 #### Codepoint
-U+00C6 LATIN CAPITAL LETTER AE
-U+00E6 LATIN SMALL LETTER AE
+U+00C6 LATIN CAPITAL LETTER AE  
+U+00E6 LATIN SMALL LETTER AE  
 
 ---
 
@@ -114,7 +114,7 @@ U+00E6 LATIN SMALL LETTER AE
 English: sharp s  
 Deutsch: eszett, scharfes s  
 #### Codepoint
-U+00DF LATIN SMALL LETTER SHARP S
+U+00DF LATIN SMALL LETTER SHARP S  
 
 
 Currency Symbols
@@ -124,7 +124,7 @@ Currency Symbols
 #### Currency name
 British pound sterling  
 #### Codepoint
-U+00A3 POUND SIGN
+U+00A3 POUND SIGN  
 
 ---
 
@@ -133,7 +133,7 @@ U+00A3 POUND SIGN
 Japanese yen 円  
 Chinese yuan 元  
 #### Codepoint
-U+00A5 YEN SIGN
+U+00A5 YEN SIGN  
 
 ---
 
@@ -141,7 +141,7 @@ U+00A5 YEN SIGN
 #### Currency name
 Euro  
 #### Codepoint
-U+20AC EURO SIGN
+U+20AC EURO SIGN  
 
 
 Miscellaneous
@@ -151,7 +151,7 @@ Miscellaneous
 #### Common names
 eighth note, quaver  
 #### Codepoint
-U+266A EIGHTH NOTE
+U+266A EIGHTH NOTE  
 
 
 
