@@ -22,6 +22,7 @@ Nederlands: kastlijntje
 #### Codepoint
 U+2014 EM DASH
 
+---
 
 ### –
 #### Common names
