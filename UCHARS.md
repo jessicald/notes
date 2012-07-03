@@ -28,6 +28,7 @@ Nederlands: halve kastlijntje
 #### Codepoint
 U+2013 EN DASH
 
+---
 
 ### ·
 #### Common names
@@ -35,6 +36,7 @@ English: interpunct, centred dot, dot operator
 #### Codepoint
 U+00B7 MIDDLE DOT
 
+---
 
 ### ‽
 #### Common names
@@ -56,6 +58,7 @@ Português: cê cedilhado
 U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA
 U+00E7 LATIN SMALL LETTER C WITH CEDILLA
 
+---
 
 ### É / é
 #### Common names
@@ -67,6 +70,7 @@ Português: e com acento agudo
 U+00C9 LATIN CAPITAL LETTER E WITH ACUTE
 U+00E9 LATIN SMALL LETTER E WITH ACUTE
 
+---
 
 ### ſ
 #### Common names
@@ -75,6 +79,7 @@ Deutsch: lange s
 #### Codepoint
 U+017F LATIN SMALL LETTER LONG S
 
+---
 
 ### Þ / þ
 #### Common names
@@ -84,6 +89,7 @@ English: thorn
 U+00DE LATIN CAPITAL LETTER THORN
 U+00FE LATIN SMALL LETTER THORN
 
+---
 
 ### Ð / ð
 #### Common names
@@ -91,6 +97,7 @@ English: eth
 Íslenska: eð  
 #### Codepoint
 
+---
 
 ### Æ / æ
 #### Common names
@@ -99,6 +106,7 @@ English: ash, æsc
 U+00C6 LATIN CAPITAL LETTER AE
 U+00E6 LATIN SMALL LETTER AE
 
+---
 
 ### ß
 #### Common names
@@ -117,6 +125,7 @@ British pound sterling
 #### Codepoint
 U+00A3 POUND SIGN
 
+---
 
 ### ¥
 #### Currency name
@@ -125,6 +134,7 @@ Chinese yuan 元
 #### Codepoint
 U+00A5 YEN SIGN
 
+---
 
 ### €
 #### Currency name
