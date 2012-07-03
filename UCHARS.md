@@ -14,7 +14,7 @@ Deutsch: geviertstrich
 Svenska: långt tankstreck  
 Nederlands: kastlijntje  
 #### Codepoint
-U+2014 EM DASH
+`U+2014 EM DASH`
 
 ---
 
