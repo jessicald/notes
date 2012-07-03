@@ -7,13 +7,12 @@ Formatting Symbols
 
 ### —
 #### Common names
-##### English
- * em dash
- * mutton
-
-##### Français
- * tiret long
- * tiret cadratin
+ *  English
+    * em dash
+    * mutton
+ * Français
+    * tiret long
+    * tiret cadratin
 
 ##### Español
  * raya
