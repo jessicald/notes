@@ -7,18 +7,12 @@ Formatting Symbols
 
 ### —
 #### Common names
-English: em dash, mutton
-
-Français: tiret long, tiret cadratin
-
-Español: raya, guión largo
-
-Deutsch: geviertstrich
-
-Svenska: långt tankstreck
-
-Nederlands: kastlijntje
-
+English: em dash, mutton  
+Français: tiret long, tiret cadratin  
+Español: raya, guión largo  
+Deutsch: geviertstrich  
+Svenska: långt tankstreck  
+Nederlands: kastlijntje  
 #### Codepoint
 U+2014 EM DASH
 
