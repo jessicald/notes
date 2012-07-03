@@ -47,8 +47,8 @@ U+203D INTERROBANG
 Latin Letters
 -------------
 
-Beowulf, lines 1–3
 > Hwæt! Wē Gār-Dena in geār-dagum þēod-cyninga þrym gefrūnon, hū þā æðelingas ellen fremedon.
+> — Beowulf, lines 1–3
 
 ### Ç / ç
 #### Common names
@@ -152,12 +152,4 @@ Miscellaneous
 eighth note, quaver  
 #### Codepoint
 U+266A EIGHTH NOTE  
-
-
-
-### 
-#### Common names
-
-#### Codepoint
-
 
