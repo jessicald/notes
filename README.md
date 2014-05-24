@@ -5,7 +5,7 @@ Things observed during testing that I feel are interesting enough to publish.
 
 1. [Regular Expressions for Various Languages][Gen:REGEX]
     * [Vim][Gen:REGEX:VIM]
-2. [My Favourite Non-ASCII Characters Encoded in UTF-8 (and their Unicode codepoints)][Gen:UCHAR]
+2. [My Favorite Non-ASCII Characters Encoded in UTF-8 (and their Unicode codepoints)][Gen:UCHAR]
     * [Formatting Symbols][Gen:UCHAR:FORMAT]
     * [Latin Letters][Gen:UCHAR:LATIN]
     * [Currency Symbols][Gen:UCHAR:MONEY]
