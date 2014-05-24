@@ -1,4 +1,4 @@
-My Favourite Non-ASCII Characters Encoded in UTF-8 (and their Unicode codepoints)
+My Favorite Non-ASCII Characters Encoded in UTF-8 (and their Unicode codepoints)
 =================================================================================
 
 
